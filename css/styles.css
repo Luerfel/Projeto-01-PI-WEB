@@ -48,4 +48,25 @@ color : #fff;
     .navbar-expand-lg .navbar-nav .nav-link{
 padding: 1rem .8rem;
 
+/* alunos */
     }
+
+    #about-area {
+        background-color: #001244;
+      }
+      
+      .main-materia {
+        color: #444;
+        margin: 0 0 5px 0;
+        font-size: 20px;
+        text-align: left;
+      }
+      
+      .main-materia2 {
+        color: #444;
+        margin: 0 0 5px 0;
+        font-size: 20px;
+        text-align: ;
+      }
+      
+    
