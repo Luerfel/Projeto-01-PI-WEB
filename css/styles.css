@@ -13,16 +13,18 @@ padding:70px 0;
 
 }
 /* faz o fundo da barra de navegação*/
-p,li {
-    color: rgb(128, 126, 126);
+p,li { 
+    color: rgb #444;
     font-size: 14px;
 }
 /* Barra de navegação */
-header,.navbar{
-    background-color: #3500f7;
+
+/* faz o fundo da barra de navegação*/
+header, .navbar{
+    background-color: #353d41;
 }
 #nav-container {
-padding-top : 0;
+padding-top: 0;
 padding-bottom: 0;
 }
 
@@ -42,6 +44,7 @@ color : #fff;
 color : #fff;
 
     }
+    
     .navbar-expand-lg .navbar-nav .nav-link{
 padding: 1rem .8rem;
 
