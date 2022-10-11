@@ -1,6 +1,48 @@
-h1 {
-    color: red;
-}
+
 body {
-    background-color: #ffffff;
+    font-family: 'roboto', sans-serif;
 }
+/* faz uma linha para tirar a marge*/
+.row{
+margin :0;
+
+}
+ /* padrozinou o padding  superior e inferior e zera nas lateiras */
+.container{
+padding:70px 0;
+
+}
+/* faz o fundo da barra de navegação*/
+p,li {
+    color: #444;
+    font-size: 14px;
+}
+/* Barra de navegação */
+header,.navbar{
+    background-color: #ff0000;
+}
+#nav-container {
+padding-top : 0;
+padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+.navbar-brand {
+padding: 0;
+color : #fff;
+
+}
+.navbar-brand:hover {
+    color : #fff;
+    
+    }
+    #navbar-links a {
+color : #fff;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+padding: 1rem .8rem;
+
+    }
