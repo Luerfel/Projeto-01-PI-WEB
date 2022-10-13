@@ -1,6 +1,8 @@
 
 body {
     font-family: 'roboto', sans-serif;
+   
+ ;
 }
 /* faz uma linha para tirar a marge*/
 .row{
@@ -12,19 +14,18 @@ margin :0;
 padding:70px 0;
 
 }
-/* faz o fundo da barra de navegação*/
 p,li { 
-    color: rgb #444;
-    font-size: 14px;
+    color: rgb rgb(0, 0, 0);
+    font-size: 4px;
 }
 /* Barra de navegação */
 
 /* faz o fundo da barra de navegação*/
 header, .navbar{
-    background-color: #353d41;
+    background-color: #002b41;
 }
 #nav-container {
-padding-top: 0;
+padding-top: 60;
 padding-bottom: 0;
 }
 
@@ -33,7 +34,7 @@ padding-bottom: 0;
 }
 .navbar-brand {
 padding: 0;
-color : #fff;
+color : rgb(245, 245, 245);
 
 }
 .navbar-brand:hover {
@@ -44,7 +45,7 @@ color : #fff;
 color : #fff;
 
     }
-    
+    /* tamanho da barra */
     .navbar-expand-lg .navbar-nav .nav-link{
 padding: 1rem .8rem;
 
@@ -52,21 +53,21 @@ padding: 1rem .8rem;
     }
 
     #about-area {
-        background-color: #ffffff;
+        background-color: #ffffff; 
       }
       
-      .main-materia {
-        color: #444;
-        margin: 0 0 5px 0;
-        font-size: 20px;
-        text-align: left;
-      }
       
-      .main-materia2 {
-        color: #444;
-        margin: 0 0 5px 0;
-        font-size: 20px;
-        text-align: ;
-      }
+
+      .banner {	
+        border: 7px solid white;
+        box-shadow: 0px 0px 10px #8c8c8c;
+        transition: all .25s;
+        max-width: 95%;
+    }
+    .banner:hover {	
+        transform: scale(1.05);	
+        box-shadow: 0px 0px 30px #8c8c8c;
+    }
+ 
       
     
