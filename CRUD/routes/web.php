@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Htpp\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/cadastrar-aluno',function(request $aluno)){
+    dd($aluno->all());
+    // debug die
+
+
+})
