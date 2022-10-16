@@ -7,12 +7,13 @@
     <title>Alunos</title>
 </head>
 <body>
-    <form action="/cadastrar-alunos" method="POST">
+    <form action="/cadastrar-aluno" method="POST">
+    @csrf
     <label for="">Nome:</label>
-    <input type="text"placeholder="Digite o Nome">
+    <input type="text"placeholder="Digite o Nome" name="nome_aluno">
 <br /> <br />
 <label for="">Disciplina</label>
-<input type="text"placeholder="Digite a Disciplina">
+<input type="text"placeholder="Digite a Disciplina" name="nome_disciplina">
 <br /><br />
 <button>Enviar Cadastro</button>
 </form>

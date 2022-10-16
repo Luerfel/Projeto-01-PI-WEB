@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-use App\Models\aluno;
+use App\Models\Aluno;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,10 +20,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('/buscar_aluno/{id_do_aluno}',function($id_do_aluno){
+Route::post('/cadastrar-aluno/',function(request $criaraluno){
     Aluno::create([
-        'Nome' => $criaraluno->Nome_aluno,
-        'Disciplina' => $criaraluno->Disciplina_aluno
+        'Nome' => $criaraluno->nome_aluno,
+        'Disciplina' => $criaraluno->nome_disciplina
     ]);
 echo "Aluno Cadastrado com Sucesso!";
 });
