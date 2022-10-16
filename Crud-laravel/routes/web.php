@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
+use App\Models\aluno;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+
+});
+
+
+Route::get('/buscar_aluno/{id_do_aluno}',function($id_do_aluno){
+    Aluno::create([
+        'Nome' => $criaraluno->Nome_aluno,
+        'Disciplina' => $criaraluno->Disciplina_aluno
+    ]);
+echo "Aluno Cadastrado com Sucesso!";
 });
