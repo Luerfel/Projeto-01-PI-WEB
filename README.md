@@ -6,5 +6,5 @@
 <h1 align="center">
 Status Do Projeto: 🚀 Pronto
 <h1 align="center">
-🖌️Autores: Matheus Augusto Mendonça RA:, Gustavo Ferreira Carvalho RA: 22006722
+🖌️Autores: Matheus Augusto Mendonça RA:22011027, Gustavo Ferreira Carvalho RA: 22006722
  
