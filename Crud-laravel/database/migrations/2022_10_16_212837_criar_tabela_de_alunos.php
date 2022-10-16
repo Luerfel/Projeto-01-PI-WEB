@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('Disciplina');
             $table->timestamps();
         });
-          ''
+          
     }
     /**
      * Reverse the migrations.
