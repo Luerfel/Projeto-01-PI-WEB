@@ -17,9 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/cadastrar-aluno',function(request $aluno)){
-    dd($aluno->all());
-    // debug die
 
-
-})
+;
