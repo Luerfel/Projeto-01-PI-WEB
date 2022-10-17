@@ -52,6 +52,8 @@
 <label for="">Disciplina</label>
 <input type="text"placeholder="Digite a Disciplina" name="nome_disciplina">
 <br /><br />
+<label for="">Filmes</label>
+<input type="text"placeholder="Digite o Filme" name="nome_filme">
 <button>Enviar Cadastro</button>
 </form>
     

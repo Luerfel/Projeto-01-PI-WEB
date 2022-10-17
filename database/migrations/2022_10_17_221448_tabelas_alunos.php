@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('Nome');
             $table->string('Disciplina');
+            $table->string('Filmes');
             $table->timestamps();
         });
     }

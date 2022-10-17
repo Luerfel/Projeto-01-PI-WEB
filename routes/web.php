@@ -23,7 +23,8 @@ Route::get('/', function () {
 Route::post('/cadastrar-aluno/',function(request $criaraluno){
     Aluno::create([
         'Nome' => $criaraluno->nome_aluno,
-        'Disciplina' => $criaraluno->nome_disciplina
+        'Disciplina' => $criaraluno->nome_disciplina,
+        'Filmes' => $criaraluno->nome_filme
     ]);
 echo "Aluno Cadastrado com Sucesso!";
 });
