@@ -27,3 +27,9 @@ Route::post('/cadastrar-aluno/',function(request $criaraluno){
     ]);
 echo "Aluno Cadastrado com Sucesso!";
 });
+route::get('/mostrar-aluno/{id_do_aluno}', function ($id_do_aluno){
+$aluno = aluno::FindOrFail($id_do_aluno);
+echo $aluno->nome;
+echo "<br / >";
+$aluno->Disciplina
+});
