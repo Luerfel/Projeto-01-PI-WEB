@@ -33,3 +33,4 @@ echo $aluno->Nome;
 echo "<br / >";
 echo $aluno->Disciplina;
 });
+Route::view('/criar-alunos', 'CriarAlunos');

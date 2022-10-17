@@ -43,27 +43,17 @@
         </nav>
       </div>
     </header>
-    <script src="js/scripts.js"></script> 
-    <div class="container-fluid">
-    <div class="row multiplos vh-100 align-items-center justify-content-center">
-        <div class="col-sm-11 col-md-10 col-lg-8 mx-auto">
-           
-                <div class="row" style="margin-top: 7.5%;">                                
-                    <div class="col-md-6 mb-4">                       
-                        <div class="slide-in-left">
-                            <a href="CRUD/resources/views/welcome.blade.php" target="_blank">
-                                <img class="img-fluid banner" src="fotos/Banner1.png" alt="banner" title="Audio Visual">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4">                       
-                        <div class="slide-in-right">
-                            <a href="CRUD/resources/views/welcome.blade.php" target="_blank">
-                                <img class="img-fluid banner" src="fotos/Banner2.png" alt="banner" title="Animação no Cinema">
-                            </a>
-                        </div>
-                    </div>
-    
+
+    <form action="/cadastrar-aluno" method="POST">
+    @csrf
+    <label for="">Nome:</label>
+    <input type="text"placeholder="Digite o Nome" name="nome_aluno">
+<br /> <br />
+<label for="">Disciplina</label>
+<input type="text"placeholder="Digite a Disciplina" name="nome_disciplina">
+<br /><br />
+<button>Enviar Cadastro</button>
+</form>
     
 </body>
 </html>
