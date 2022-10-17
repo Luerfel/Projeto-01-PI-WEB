@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Models\Aluno;
+use app\Htpp\controllers\AlunosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,3 +36,4 @@ echo "<br / >";
 echo $aluno->Disciplina;
 });
 Route::view('/criar-alunos', 'CriarAlunos');
+Route::get('list',[AlunosController::class,'show']);
