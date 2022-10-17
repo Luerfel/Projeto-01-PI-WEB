@@ -2,8 +2,10 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="<?php echo asset('css/syles.css')?>" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 01 web</title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" >
     <!-- Bibliotecas -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!-- Botostrasp -->
@@ -32,10 +34,9 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
             <div class="navbar-nav">
-              <a class="nav-item nav-link" id="home-menu" href="#">Página Inicial</span></a>
-              <a class="nav-item nav-link" id="about-menu" href="#">Alunos</a>
-              <a class="nav-item nav-link" id="services-menu" href="#">Professores</a>
-              <a class="nav-item nav-link" id="team-menu" href="#">Matérias</a>
+              <a class="nav-item nav-link" id="materias-menu" href="#">Materias</span></a>
+              <a class="nav-item nav-link" id="professores-menu" href="#">Professores</a>
+              <a class="nav-item nav-link" id="alunos" href="#">Alunos</a>
               </div>
           </div>
         </nav>
