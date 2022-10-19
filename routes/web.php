@@ -36,4 +36,4 @@ echo "<br / >";
 echo $aluno->Disciplina;
 });
 Route::view('/criar-alunos', 'CriarAlunos');
-Route::get('list',[AlunosController::class,'show']);
+Route::get('alunos', 'App\Http\Controllers\Alunos@index');
